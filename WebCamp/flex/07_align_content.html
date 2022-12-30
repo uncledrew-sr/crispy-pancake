@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>icon button</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+      .icon-button{
+        width: 44px;
+        height: 44px;
+        background: url('../images/ilbuni.png') no-repeat 50% / contain;
+      }
+      .icon-label-button{
+        display: inline-flex;
+        width: 200px;
+        height: 80px;
+        background: gray;
+      }
+      .icon-label-button>div{
+        display: flex;
+        height: 44px;
+        background: red;
+      }
+      .icon-label-button i{
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        background: url('../images/ilbuni.png') no-repeat 50% / contain;
+      }
+  </style>
+</head>
+<body>
+  <button class="icon-button"></button>
+  <a href="#" class="icon-label-button">
+    <div>
+      <i></i>
+      <span>좋아요</span>
+    </div>
+  </a>
+</body>
+</html>

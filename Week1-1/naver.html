@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NAVER</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			box-sizing: border-box;
+			list-style: none; /*ul태그에서 기본으로 설정된 것을 없애기*/
+		}
+		header{
+			position: relative; /*상속*/
+			width: 100%; /*px은 해상도에 따라서. %로*/
+			height: 160px;
+			display: flex;
+			justify-content: center;
+			border-bottom: 1px solid #dcdcdc;
+		}
+		.header_wrap{
+			position: relative; /*상속*/
+			width: 1130px;
+			height: 100%;
+			display: flex;
+		}
+		.logo{
+			position: relative;
+			height: 100%;
+			display: flex;
+			margin-right: 20px;
+		}
+		.search{
+			position: relative;
+			height: 100%;
+			display: flex;
+			align-items: center;
+		}
+		input{
+			width: 586px;
+			height: 56px;
+			border: 2px solid #19ce60;
+			font-size: 18px;
+			font-weight: 600;
+			outline: none;
+			padding: 13px 15px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="header_wrap">
+			<div class="logo">
+				<img src="./img/logo.png">
+			</div>
+			<div class="search">
+				<input type="text">
+			</div>
+		</div>
+	</header>
+</body>
+</html>

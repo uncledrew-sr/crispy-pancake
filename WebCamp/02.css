@@ -1,0 +1,23 @@
+header{
+  padding-left: 20px;
+  background-color: red;
+}
+.p1{
+  color: lightcoral;
+  margin-left: 20px;
+}
+.p2{
+  color: blueviolet;
+  margin-left: 20px;
+}
+.special_text{
+  border: 5px solid white;
+  font-size: 24px;
+  margin-left: 20px;
+  color: mediumpurple;
+}
+#page_header{
+  border: 5px double white;
+  border-radius: 10px;
+  /* 테두리를 둥글게 */
+}

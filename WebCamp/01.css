@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'monospace';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	font-size: 20px;
+	font-family: 'monospace';
+	line-height: 1.6;
+}
+h1 {
+	color: white;
+	background: #128df9;
+}
+h1 a {
+	font-size: 0.8rem;
+	color: white;
+}
+a {
+	color: #128df9;
+}
+footer {
+	margin-top: 2rem;
+	padding: 1rem 0;
+	border-top: 3px dashed #128df9;
+}
+
+.go-to-content {
+	display: block;
+	position: absolute;
+	left: -1000rem;
+	top: 0;
+}
+.go-to-content:focus {
+	position: static;
+}
+
+dt{
+	color: red;
+	background-color: black;
+}
+dd{
+	color: greenyellow;
+	background-color: gray;
+}
+
+.divtag{
+	background-color: yellow;
+}
+
+.sec1{
+	position: relative;
+	margin-left: 10px;
+	background-color: lightgreen;
+}
+.sec2{
+	position: relative;
+	background-color: aquamarine;
+}

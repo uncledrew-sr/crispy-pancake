@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML 소개</title>
+	<link rel="stylesheet" href="./01.css">
+</head>
+<body>
+	<header>
+		<h1><em>HTML의 태그</em></h1>
+		<p>HTML 태그 참고: <a href="https://www.w3schools.com/">W3Schools</a></p>
+		<p><span>ul, ol, dl(dt,dd) 태그</span></p>
+		<!-- span은 별 의미 없이 감싸는 태그 -->
+	</header>
+	<a href="#content" class="go-to-content">본문 바로가기</a>
+	<div class="divtag">
+		<p>div tag</p>
+	</div>
+	<nav>
+		<p># 순서가 없는 목록 태그: ul</p>
+		<ul>
+			<li><a href="#">메뉴 1</a></li>
+			<li><a href="#">메뉴 2</a></li>
+			<li><a href="#">메뉴 3</a></li>
+			<li><a href="#">메뉴 4</a></li>
+			<li><a href="#">메뉴 5</a></li>
+		</ul>
+		<p># 순서가 있는 목록 태그: ol</p>
+		<ol>
+			<li><a href="#">메뉴 1</a></li>
+			<li><a href="#">메뉴 2</a></li>
+			<li><a href="#">메뉴 3</a></li>
+			<li><a href="#">메뉴 4</a></li>
+			<li><a href="#">메뉴 5</a></li>
+		</ol>
+		<dl>
+			<p># 제목 태그: dt / 설명 태그: dd</p>
+			<dt>제목 태그 1</dt>
+			<dd>설명 태그 1</dd>
+			<dt>제목 태그 2</dt>
+			<dd>설명 태그 2</dd>
+		</dl>
+	</nav>
+	<article id="content">
+		<header>
+			<h1>
+				<em>HTML: Hyper Text Markup Language</em>
+			</h1>
+		</header>
+		<section>
+			<h2>HTML의 특징</h2>
+			<ul>
+				<li>Hyper Text(하이퍼텍스트)는 링크로 연결된 텍스트 페이지</li>
+				<li>Markup Language(마크업 언어)는 태그 등을 이용해서 문서를 작성하도록 도와주는 언어</li>
+				<li>HTML은 웹의 기본. 마크업 언어일 뿐 아니라, 웹 애플리케이션을 구성하는 다양한 스펙들이 존재.</li>
+				<li>확장자는 .html</li>
+			</ul>
+		</section>
+		<section>
+			<h2>HTML 버전 이야기</h2>
+			<figure>
+				<img src="./images/html.png">
+				<figcaption>[HTML 이미지]</figcaption>
+			</figure>
+			<figure>
+				<img src="./images/logocopy.png">
+				<figcaption>????[Naver 로고 이미지]</figcaption>
+			</figure>
+			<p>
+				HTML 1.0, HTML 2.0 ... 지속적으로 버전업.<br>
+				최신 스펙으로 알려져있던 HTML5는 폐기, <strong>HTML Living Standard</strong>가 현재 최신 버전.<br>
+				<a href="https://html.spec.whatwg.org/" target="_blank">https://html.spec.whatwg.org/</a>
+			</p>
+		</section>
+		<footer>
+			<address>
+				<p>제주특별자치도 제주시 도련알동</p>
+				<p>제주대학교 공과대학 소프트웨어학부 컴퓨터공학전공</p>
+				<p>2학년 최범규</p>
+				<p>fredb@naver.com</p>
+				<p><a href="https://blog.naver.com/fredb">[Blog]</a></p>
+			</address>
+		</footer>
+	</article>
+	
+	<!-- section/article practive -->
+	<section>
+		<article class="sec1">
+			<p>section 01</p>
+		</article>
+		<article class="sec1">
+			<p>section 02</p>
+		</article>
+	</section>
+
+	<article>
+		<section class="sec2">
+			<p>section 1</p>
+		</section>
+		<section class="sec2">
+			<p>section 2</p>
+		</section>
+	</article>
+</body>
+</html>

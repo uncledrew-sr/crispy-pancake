@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/static/Inter-Medium.ttf");
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "Inter";
+}
+.login_section{
+	position: relative;
+	width: 100%;
+	height: 900px;
+	display: flex;
+	justify-content: center;
+}
+.login_wrap{
+	position: relative;
+	width: 80%;
+	height: 100%;
+}
+.logo{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.login_box{
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+.login_top{
+	position: relative;
+	width: 100%;
+	height: 24%;
+}
+.login_top>li{
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+.login_top>li>input{
+	position: relative;
+	width: 100%;
+	padding: 10px 10px;
+	border: none;
+	font-size: 17px;
+	border-bottom: 1px solid #dcdcdc;
+	background-color: rgba(0, 0, 0, 0.0);
+	outline: none;
+}
+.login_bottom{
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+.login_keep{
+	position: relative;
+	width: 100%;
+	height: 45px;
+	display: flex;
+}
+.login_keep>p{
+	font-size: 14px;
+	color: #292929;
+}
+.login_keep>p:nth-child(2){
+	padding-left: 10px;
+}
+.login_btn{
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+.login_btn>input{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: #0400A7;
+	color: white;
+	border: none;
+	font-size: 15px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.login_footer{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.login_footer>p>a{
+	color: black;
+	font-size: 14px;
+}
+#ckbox[type="checkbox"]+label{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/check.svg") no-repeat 0 0px / contain;
+}
+#ckbox[type="checkbox"]:checked+label{
+	background: url("../img/checked.svg") no-repeat 0 0px / contain;
+}
+#ckbox{
+	display: none;
+}
+.join_top{
+	height: 54%;
+}
+#ckbox2[type="checkbox"]+label{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/check.svg") no-repeat 0 0px / contain;
+}
+#ckbox2[type="checkbox"]:checked+label{
+	background: url("../img/checked.svg") no-repeat 0 0px / contain;
+}
+#ckbox2{
+	display: none;
+}

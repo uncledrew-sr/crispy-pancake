@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 260px;
+}
+.header_wrap{
+	position: relative;
+	width: 1600px;
+	height: 100%;
+	margin: 0 auto;
+}
+.search_wrap{
+	position: relative;
+	width: 100%;
+	height: 80px;
+}
+.logo_wrap{
+	position: relative;
+	display: flex;
+	justify-content: center; /*좌우 가운데 */
+	align-items: center; /*상하 가운데*/
+	width: 100%;
+	height: 120px;
+}
+.logo_wrap>img{
+	width: 200px;
+}
+nav{
+	position: relative;
+	width: 100%;
+	height: 60px;
+}
+nav>ul{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu>li>a{
+	color: #666666;
+	font-size: 18px;
+}
+.search_wrap>ul{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+.search_wrap>ul>li>a>i{
+	color: #666666;
+	font-size: 25px;
+}
+.search_wrap>ul>li{
+	margin-left: 30px;
+}
+.slide{
+	position: relative;
+	width: 100%;
+	height: 556px;
+}
+.slide_wrap{
+	position: relative;
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+}
+.slick-arrow{
+	display: none!important;
+}
+.slide_btn{
+	position: relative;
+	display: flex;
+	z-index: 999;
+	top: 300px;
+	justify-content: space-between;
+}
+.btn{
+	width: 50px;
+	height: 50px;
+}
+.btn_next{
+	position: relative;
+	right: 150px;
+	background-image: url('../img/next.png');
+}
+.btn_prev{
+	position: relative;
+	left: 150px;
+	background-image: url('../img/prev.png');
+}
+.board_section{
+	position: relative;
+	width: 100%;
+	height: 2000px;
+	background-color: lightgreen;
+	display: flex;
+	justify-content: center;
+}
+.board_wrap{
+	position: relative;
+	width: 1600px;
+	height: 400px;
+	background-color: skyblue;
+}
+.board{
+	position: relative;
+	width: 50%;
+	height: 400px;
+	background-color: teal;
+	
+}
+.board_title{
+	font-size: 20px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.board_table>tr{
+	background-color: red;
+}

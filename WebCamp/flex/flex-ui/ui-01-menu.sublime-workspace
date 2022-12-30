@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fl",
+				"flex-shrink"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"fle",
+				"flex-grow"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"alig",
+				"align-self"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"re",
+				"red"
+			],
+			[
+				"s",
+				"section"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"h",
+				"h1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pci",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/uncledrew/Desktop/Web Camp/flex/flex-ui/ui-01-menu.html",
+		"/Users/uncledrew/Library/Application Support/Sublime Text/Packages/Color Highlight/Color Highlight.sublime-settings",
+		"/Users/uncledrew/Library/Application Support/Sublime Text/Packages/User/Color Highlight.sublime-settings",
+		"/Users/uncledrew/Desktop/Web Camp/flex/12_z-index.html",
+		"/Users/uncledrew/Desktop/Web Camp/flex/09_flex-basis.html",
+		"/Users/uncledrew/Desktop/Web Camp/flex/07_align_content.html",
+		"/Users/uncledrew/Desktop/Web Camp/flex/04.html",
+		"/Users/uncledrew/Desktop/Web/Web_Study_2/css/style.css",
+		"/Users/uncledrew/Desktop/Web/Web_Study_2/index.html",
+		"/Users/uncledrew/Desktop/Web Camp/07_display.css",
+		"/Users/uncledrew/Desktop/Web Camp/01.html",
+		"/Users/uncledrew/Desktop/Web Camp/layout.css",
+		"/Users/uncledrew/Desktop/Web Camp/10_boxmodel.html",
+		"/Users/uncledrew/Desktop/Web/Web_Study_2/layout.html",
+		"/Users/uncledrew/Desktop/Web Camp/01.css",
+		"/Users/uncledrew/Desktop/Web/001.html",
+		"/Users/uncledrew/Desktop/jecoba2022-css/style.css",
+		"/Users/uncledrew/Desktop/jecoba2022-css/01.html",
+		"/Users/uncledrew/Desktop/제주코딩베이스캠프/web basic.html",
+		"/Users/uncledrew/Desktop/2022_1학년_1학기_SW개발기초/문자열.py",
+		"/Users/uncledrew/Desktop/무제.rtf",
+		"/Users/uncledrew/Desktop/Web/Web_Study_2/study.html",
+		"/Users/uncledrew/Desktop/xampp/htdocs/index.html",
+		"/Users/uncledrew/Desktop/xampp/htdocs/css/style.css",
+		"/Users/uncledrew/Desktop/Web/study2.html",
+		"/Users/uncledrew/Desktop/Web/index.php",
+		"/Users/uncledrew/Desktop/Web/study.html",
+		"/Users/uncledrew/Desktop/Web/css/style.css",
+		"/Users/uncledrew/Desktop/Web/index2.html",
+		"/Users/uncledrew/Desktop/Web/index.html",
+		"/Users/uncledrew/Desktop/Web/study"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ui-01-menu.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

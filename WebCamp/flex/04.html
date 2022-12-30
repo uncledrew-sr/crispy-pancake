@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>justify-content/align-items</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+      .container{
+        display: flex;
+
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* justify-content: center; */
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+        align-items: center;
+        /* align-items: baseline; */
+
+        justify-content: center;
+        
+        background: cornsilk;
+        height: 100vh; 
+      }
+      .window{
+        width: 300px;
+        height: 200px;
+        background: hotpink;
+        border-radius: 20px;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="window">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dignissimos non impedit nam adipisci sint, excepturi nisi alias consectetur corporis quisquam qui magnam quam corrupti architecto ut ipsam itaque neque.</div>
+    <div class="item">aaaaaaaaaaaaaaaaaaaaaa</div>
+    <div class="item">bbbbbbbbbbbbbbbbbbb</div>
+    <div class="item">ccccccccccccccc</div>
+  </div>
+  <script src="modernizr.js"></script>
+  <script>
+      console.log(Modernizr.touchevents);
+        if (Modernizr.touchevents){
+        }
+        else{
+        }
+  </script>
+</body>
+</html>
+<!-- 010 8906 8833 유준모 -->

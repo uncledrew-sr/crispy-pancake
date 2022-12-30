@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			background-color: #333;
+			padding: 20px;
+			color: #fff;
+		}
+
+		form{
+			width: 50%;
+			border-radius: 10px;
+			background-color: teal;
+			padding: 20px;
+		}
+
+		form fieldset{
+			border: none;
+		}
+
+		form legend{
+			font-size: 1.2em;
+			text-align: center;
+		}
+
+		form label{
+			display: block;
+		}
+
+		form input{
+			display: block;
+			width: 100%;
+			padding: 0;
+			margin-bottom: 10px;
+		}
+
+		form input:valid{
+			background-color: royalblue;
+		}
+
+		progress{
+			width: 100%;
+		}
+
+		form button{
+			background-color: darkslategrey;
+			width: 100%;
+			padding: 10px;
+			cursor: pointer;
+			border-radius: 10px;
+			color: #fff;
+			font-size: 1.2em;
+		}
+	</style>
+</head>
+
+<body>
+	<form>
+		<fieldset>
+			<legend>진행상황을 보여주는 설문지</legend>
+			<progress value="0" max="100" id="progress"></progress>
+			<p class="msg">설문지를 작성하세요!</p>
+
+			<label for="q1">질문 1</label>
+			<input type="text" name="" id="q1" required>
+			<label for="q2">질문 2</label>
+			<input type="text" name="" id="q2" required>
+			<label for="q3">질문 3</label>
+			<input type="text" name="" id="q3" required>
+			<label for="q4">질문 4</label>
+			<input type="text" name="" id="q4" required>
+			<label for="q5">질문 5</label>
+			<input type="text" name="" id="q5" required>
+
+			<button type="submit">제출</button>
+		</fieldset>
+	</form>
+
+	<script type="text/javascript">
+		const progressBar = document.querySelector('progress');
+        const message = document.querySelector('.msg');
+        const mainForm = document.querySelector('form');
+        const inputs = document.querySelectorAll('input');
+
+        mainForm.addEventListener('keyup', () => {
+            let validCounter = 0;
+
+            inputs.forEach((item) => {
+                console.log(item.validity);
+                if (item.validity.valid) {
+                    validCounter++;
+                }
+            })
+
+            let progressValue = validCounter * 100 / inputs.length;
+
+            switch (validCounter) {
+                case 1:
+                    message.textContent = "좋습니다! 계속 진행하세요!";
+                    progressBar.setAttribute('value', progressValue);
+                    break;
+                case 2:
+                    message.textContent = "진행하라고";
+                    progressBar.setAttribute('value', progressValue);
+                    break;
+                case 3:
+                    message.textContent = "두 번만 더해라";
+                    progressBar.setAttribute('value', progressValue);
+                    break;
+                case 4:
+                    message.textContent = "빨리하라고";
+                    progressBar.setAttribute('value', progressValue);
+                    break;
+                case 5:
+                    message.textContent = "설문 완료!";
+                    progressBar.setAttribute('value', progressValue);
+                    break;
+                default:
+                    progressBar.setAttribute('value', 0);
+            }
+        })
+	</script>
+</body>
+
+</html>

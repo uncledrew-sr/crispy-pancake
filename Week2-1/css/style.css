@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center; /*flex 필수 자식 좌우 맞춤*/
+}
+.header_wrap{
+	position: relative;
+	width: 1400px;
+	height: 100%;
+}
+.header_wrap>ul{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.logo{
+	position: relative;
+	width: 20%;
+	height: 100%;
+	display: flex;
+	align-items: center;/*flex 필수 자식 상하 맞춤*/
+}
+.menu{
+	position: relative;
+	width: 65%;
+	height: 100%;
+}
+.menu>ul{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu>ul>li>a{
+	color: black;
+	font-size: 19px;
+	font-weight: 600;
+}
+.menu>ul>li:hover a{
+	color: #ca4d7b;
+}
+.icon{
+	position: relative;
+	width: 15%;
+	height: 100%;
+	display: flex;
+}
+.lang{
+	position: relative;
+	width: 60%;
+	height: 100%;;
+}
+.facebook{
+	position: relative;
+	width: 20%;
+	height: 100%;
+}
+.instagram{
+	position: relative;
+	width: 20%;
+	height: 100%;
+}
+.icon>div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main_section{
+	position: relative;
+	width: 100%;
+	height: 890px;
+}
+.main_img{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+}
+.main_menu{
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background-color: #333333;
+	display: flex;
+	justify-content: center;
+}
+.main_wrap{
+	position: relative;
+	width: 1400px;
+	height: 100%;
+	display: flex;
+}
+.main_title{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.main_title>p{
+	font-size: 26px;
+	font-weight: 600;
+	color: white;
+}
+.main_sub1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.sub_title{
+	position: relative;
+	width: 45%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sub_title>p{
+	color: white;
+	font-size: 17px;
+	font-weight: 600;
+}
+.sub_menu{
+	position: relative;
+	width: 55%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.sub_menu>a{
+	position: relative;
+	width: 120px;
+	height: 40px;
+	background-color: #515151;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px;
+	color: white;
+	font-size: 16px;
+}
+.main_sub2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.main_sub1>.sub_menu>a:hover{
+	background-color: #cd4575;
+}
+.main_sub2>.sub_menu>a:hover{
+	background-color: #14843a;
+}
+.program_section{
+	position: relative;
+	width: 100%;
+	height: 870px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.program_wrap{
+	position: relative;
+	width: 1400px;
+	height: 670px;
+}
+.program_wrap>ul{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap; /*줄 바꿈*/
+}
+.program_wrap>ul>li{
+	position: relative;
+	width: calc(1400px/4);
+	height: calc(670px/2);
+	/*border: 2px solid red;*/
+}
+.program_title>p:nth-child(1){
+	font-size: 46px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+.program_title>p:nth-child(2){
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 30px;
+}
+.program_title>p:nth-child(3){
+	position: relative;
+	width: 200px;
+	height: 50px;
+	border: 2px solid #999;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+	font-weight: 600;
+}
+.program_img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.chef_section{
+	position: relative;
+	width: 100%;
+	height: 900px;
+	background-image: url("../img/back.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.chef_wrap{
+	position: relative;
+	width: 1400px;
+	height: 80%;
+}
+.chef_title{
+	position: relative;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.chef_title>p{
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+}
+.chef_list{
+	position: relative;
+	width: 100%;
+	height: 570px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.chef_list>li{
+	position: relative;
+	width: calc(1400px/6);
+	height: calc(570px/2);
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.chef_list>li>p{
+	color: white;
+	font-size: 18px;
+	margin-top: 30px;
+	font-weight: 600;
+}
+.list_img1{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d1.jpg");
+	background-size: 200px 200px;
+}
+.list_img2{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d2.jpg");
+	background-size: 200px 200px;
+}
+.list_img3{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d3.jpg");
+	background-size: 200px 200px;
+}
+.list_img4{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d4.jpg");
+	background-size: 200px 200px;
+}
+.list_img5{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d5.jpg");
+	background-size: 200px 200px;
+}
+.list_img6{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d6.jpg");
+	background-size: 200px 200px;
+}
+.list_img7{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d7.jpg");
+	background-size: 200px 200px;
+}
+.list_img8{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d8.jpg");
+	background-size: 200px 200px;
+}
+.list_img9{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d9.jpg");
+	background-size: 200px 200px;
+}
+.list_img10{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d10.jpg");
+	background-size: 200px 200px;
+}
+.list_img11{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d11.jpg");
+	background-size: 200px 200px;
+}
+.list_img12{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url("../img/d12.jpg");
+	background-size: 200px 200px;
+}

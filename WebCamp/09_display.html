@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display</title>
+  <style>
+    body{
+      font-size: 20px;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .ab{
+      font-size: 0;
+      background: yellow;
+    }
+    section{
+      /* display: inline; */
+      /* inline은 텍스트 모양 */
+      display: inline-block;
+      font-size: 20px;
+      /* width: 100%; */
+      vertical-align: top;
+      /* 수직으로 정렬: 위쪽으로 */
+    }
+    .a{
+      width: calc(30%-10px);
+      background: dodgerblue;
+    }
+    .b{
+      width: calc(70%-10px);
+      background: limegreen;
+    }
+  </style>
+</head>
+<body>
+  <article class="ab">
+    <section class="a">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, reiciendis accusantium ea, veritatis praesentium aperiam pariatur ut inventore cum quos earum voluptas provident. Praesentium illum ratione tempore omnis ex nemo!
+    </section>
+    <section class="b">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, facilis necessitatibus. Nisi, asperiores veritatis quis quia dolore explicabo tempore, reiciendis, blanditiis labore officiis cum quaerat provident numquam atque! Sed, sint.
+    </section>
+  </article>
+</body>
+</html>

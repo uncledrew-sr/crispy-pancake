@@ -1,0 +1,20 @@
+body{
+  font-size: 30px;
+}
+img{
+  border: 1px solid;
+}
+/* display */
+/* block 박스형태로 배치 (a tag) */
+/* inline 텍스트처럼 배치 (img tag) */
+.container{
+  background: red;
+}
+p{
+  display: inline;
+  background: green;
+}
+strong{
+  /* display: block; */
+  background: yellow;
+}
